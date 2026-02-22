@@ -1,0 +1,60 @@
+{
+  "Header": {
+    "solutions": "Soluções",
+    "contact": "Contato",
+    "cta": "Fale Conosco"
+  },
+  "Hero": {
+    "badge": "Tecnologia que resolve",
+    "headline": "Transformamos problemas reais em soluções digitais",
+    "subheadline": "Desenvolvemos sistemas, SaaS e aplicativos sob medida para empresas que querem crescer com tecnologia.",
+    "cta_primary": "Fale com a gente",
+    "cta_secondary": "Conheça nossas soluções"
+  },
+  "Solutions": {
+    "overline": "Nossos Produtos",
+    "headline": "Soluções que já estão no mercado",
+    "subheadline": "Produtos próprios desenvolvidos para resolver problemas reais do dia a dia de empresas.",
+    "custom_title": "Soluções sob medida",
+    "custom_description": "Precisa de algo específico? Desenvolvemos sistemas personalizados para atender as necessidades únicas do seu negócio.",
+    "custom_cta": "Fale com a gente",
+    "learn_more": "Saiba mais"
+  },
+  "Products": {
+    "npslab": {
+      "name": "NPSLAB",
+      "tagline": "Avaliações de clientes no varejo",
+      "description": "Sistema completo para capturar e gerenciar avaliações de clientes no ponto de venda. Entenda a satisfação real dos seus consumidores."
+    },
+    "smartmenu": {
+      "name": "SmartMenu",
+      "tagline": "Cardápio digital inteligente",
+      "description": "Cardápio digital para restaurantes com gestão simplificada. Atualize preços e itens em tempo real, sem complicação."
+    },
+    "digitocrm": {
+      "name": "DigitoCRM",
+      "tagline": "CRM com agentes de IA",
+      "description": "CRM completo com atendimento por agentes de inteligência artificial, agendamento e gestão de relacionamento com clientes."
+    }
+  },
+  "CTA": {
+    "headline": "Vamos construir algo juntos?",
+    "subheadline": "Conte pra gente o que você precisa. A conversa inicial é sem compromisso.",
+    "whatsapp": "Chamar no WhatsApp",
+    "email": "Enviar um e-mail"
+  },
+  "Footer": {
+    "tagline": "Tecnologia que resolve problemas reais.",
+    "rights": "Todos os direitos reservados."
+  },
+  "NotFound": {
+    "title": "Página não encontrada",
+    "description": "A página que você procura não existe ou foi movida.",
+    "back": "Voltar ao início"
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma",
+    "pt-BR": "PT",
+    "en": "EN"
+  }
+}

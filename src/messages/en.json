@@ -1,0 +1,60 @@
+{
+  "Header": {
+    "solutions": "Solutions",
+    "contact": "Contact",
+    "cta": "Get in Touch"
+  },
+  "Hero": {
+    "badge": "Technology that delivers",
+    "headline": "We turn real problems into digital solutions",
+    "subheadline": "We build systems, SaaS, and apps tailored for businesses that want to grow with technology.",
+    "cta_primary": "Get in touch",
+    "cta_secondary": "See our solutions"
+  },
+  "Solutions": {
+    "overline": "Our Products",
+    "headline": "Solutions already in the market",
+    "subheadline": "Our own products built to solve real, everyday business problems.",
+    "custom_title": "Custom Solutions",
+    "custom_description": "Need something specific? We build custom systems tailored to your business unique needs.",
+    "custom_cta": "Talk to us",
+    "learn_more": "Learn more"
+  },
+  "Products": {
+    "npslab": {
+      "name": "NPSLAB",
+      "tagline": "Customer reviews in retail",
+      "description": "Complete system for capturing and managing customer reviews at point of sale. Understand your consumers real satisfaction."
+    },
+    "smartmenu": {
+      "name": "SmartMenu",
+      "tagline": "Smart digital menu",
+      "description": "Digital menu for restaurants with simplified management. Update prices and items in real time, hassle-free."
+    },
+    "digitocrm": {
+      "name": "DigitoCRM",
+      "tagline": "CRM with AI agents",
+      "description": "Complete CRM with AI-powered customer service agents, scheduling, and client relationship management."
+    }
+  },
+  "CTA": {
+    "headline": "Let's build something together?",
+    "subheadline": "Tell us what you need. The initial conversation is no-commitment.",
+    "whatsapp": "Chat on WhatsApp",
+    "email": "Send an email"
+  },
+  "Footer": {
+    "tagline": "Technology that solves real problems.",
+    "rights": "All rights reserved."
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "back": "Back to home"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "pt-BR": "PT",
+    "en": "EN"
+  }
+}
