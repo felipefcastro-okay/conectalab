@@ -31,6 +31,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: "/",
       languages: { "pt-BR": "/", en: "/en" },
     },
+    icons: {
+      icon: [
+        {
+          url: "/brand/conectalab-logo-square.png",
+          type: "image/png",
+          sizes: "512x512",
+        },
+      ],
+      apple: [
+        {
+          url: "/brand/conectalab-logo-square.png",
+          type: "image/png",
+          sizes: "512x512",
+        },
+      ],
+    },
   };
 }
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 export default function Footer() {
@@ -9,14 +10,13 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           {/* Logo + tagline */}
           <div>
-            <div className="flex items-center gap-1.5">
-              <div className="h-8 w-8 rounded-lg bg-brand-500 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">C</span>
-              </div>
-              <span className="font-heading font-bold text-lg text-white">
-                CONECTA<span className="text-brand-400">LAB</span>
-              </span>
-            </div>
+            <Image
+              src="/brand/conectalab-logo-horizontal.png"
+              alt="CONECTA LAB"
+              width={2172}
+              height={724}
+              className="h-14 w-auto brightness-0 invert"
+            />
             <p className="text-slate-400 text-sm mt-2">{t("tagline")}</p>
           </div>
         </div>

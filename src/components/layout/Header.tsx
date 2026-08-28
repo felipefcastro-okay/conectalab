@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import LocaleSwitcher from "@/components/ui/LocaleSwitcher";
 import Button from "@/components/ui/Button";
@@ -30,15 +31,15 @@ export default function Header() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <div className="flex items-center gap-1.5">
-              <div className="h-8 w-8 rounded-lg bg-brand-600 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">C</span>
-              </div>
-              <span className="font-heading font-bold text-lg text-slate-900">
-                CONECTA<span className="text-brand-600">LAB</span>
-              </span>
-            </div>
+          <a href="#" aria-label="CONECTA LAB">
+            <Image
+              src="/brand/conectalab-logo-horizontal.png"
+              alt="CONECTA LAB"
+              width={2172}
+              height={724}
+              priority
+              className="h-12 w-auto"
+            />
           </a>
 
           {/* Desktop Nav */}
