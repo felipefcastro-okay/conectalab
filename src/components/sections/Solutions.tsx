@@ -13,7 +13,7 @@ const products = [
     iconBg: "bg-amber-50",
   },
   {
-    key: "smartmenu" as const,
+    key: "elusfood" as const,
     icon: "🍽️",
     iconBg: "bg-emerald-50",
   },
