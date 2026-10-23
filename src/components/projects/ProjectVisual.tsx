@@ -15,7 +15,7 @@ export function coverUsesBrowser(project: Project) {
 }
 
 // Composes the project's first images into a cover: browser + phone,
-// two phones, a single browser, or a diagram when there are no screenshots.
+// two phones, or a single browser.
 export default function ProjectVisual({ project, name, className = "", priority }: ProjectVisualProps) {
   const browser = project.images.find((image) => image.kind === "browser");
   const phones = project.images.filter((image) => image.kind === "phone");
@@ -40,33 +40,7 @@ export default function ProjectVisual({ project, name, className = "", priority 
         </>
       ) : browser ? (
         <BrowserFrame image={browser} alt={name} domain={domain} sizes="(min-width: 1024px) 600px, 90vw" className={`absolute left-[8%] right-[8%] top-[14%] ${motion}`} priority={priority} />
-      ) : (
-        <PipelineDiagram />
-      )}
-    </div>
-  );
-}
-
-function PipelineDiagram() {
-  const columns = [4, 3, 2];
-  return (
-    <div aria-hidden="true" className="absolute inset-x-[8%] top-[14%] grid grid-cols-3 gap-3 transition-transform duration-500 ease-out group-hover:-translate-y-2">
-      {columns.map((cards, column) => (
-        <div key={column} className="rounded-xl bg-white/60 p-2.5">
-          <div className="mb-2.5 h-2 w-1/2 rounded-full bg-ink/15" />
-          <div className="space-y-2">
-            {Array.from({ length: cards }).map((_, index) => (
-              <div key={index} className="rounded-lg bg-white p-2.5 shadow-sm">
-                <div className="h-1.5 w-3/4 rounded-full bg-ink/20" />
-                <div className="mt-1.5 h-1.5 w-1/2 rounded-full bg-ink/10" />
-                {column === 2 && index === 0 && (
-                  <div className="mt-2 h-1.5 w-6 rounded-full bg-emerald-400" />
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      ))}
+      ) : null}
     </div>
   );
 }
