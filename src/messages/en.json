@@ -1,55 +1,190 @@
 {
+  "Metadata": {
+    "title": "CONECTA LAB | Digital product studio",
+    "description": "We build apps, SaaS, and websites and ship them. See the products we've built."
+  },
   "Header": {
-    "solutions": "Solutions",
+    "projects": "Projects",
+    "process": "How we work",
     "contact": "Contact",
-    "cta": "Get in Touch"
+    "cta": "Get in touch",
+    "menu": "Menu"
   },
   "Hero": {
-    "badge": "Technology that delivers",
-    "headline": "We turn real problems into digital solutions",
-    "subheadline": "We build systems, SaaS, and apps tailored for businesses that want to grow with technology.",
-    "cta_primary": "Get in touch",
-    "cta_secondary": "See our solutions"
+    "overline": "Digital product studio · Belo Horizonte, Brazil",
+    "headline": "We build digital products and ship them.",
+    "subheadline": "Apps, SaaS, and websites, from the problem to the app stores and day-to-day operation. These are some of the products we've built.",
+    "cta_primary": "See projects",
+    "cta_secondary": "Talk to us",
+    "stat_live": "{count} products live",
+    "stat_platforms": "iOS, Android, and Web",
+    "stat_since": "Since 2025"
   },
-  "Solutions": {
-    "overline": "Our Products",
-    "headline": "Solutions already in the market",
-    "subheadline": "Our own products built to solve real, everyday business problems.",
-    "custom_title": "Custom Solutions",
-    "custom_description": "Need something specific? We build custom systems tailored to your business unique needs.",
-    "custom_cta": "Talk to us",
-    "learn_more": "Learn more"
+  "ProjectsSection": {
+    "overline": "Projects",
+    "headline": "Products we've built",
+    "subheadline": "Each project covers the problem, what we built, and how it turned out."
   },
-  "Products": {
-    "npslab": {
-      "name": "NPSLAB",
-      "tagline": "Customer reviews in retail",
-      "description": "Complete system for capturing and managing customer reviews at point of sale. Understand your consumers real satisfaction."
-    },
-    "elusfood": {
+  "ProjectMeta": {
+    "view": "View project",
+    "platforms": "Platforms",
+    "status": "Status",
+    "year": "Year",
+    "visit": "Visit website",
+    "back": "All projects",
+    "next": "Next project",
+    "challenge": "The challenge",
+    "built": "What we built",
+    "highlights": "Highlights",
+    "status_live": "Live",
+    "status_launching": "Launching"
+  },
+  "Platforms": {
+    "ios": "iOS",
+    "android": "Android",
+    "web": "Web"
+  },
+  "Projects": {
+    "elus-food": {
       "name": "Elus Food",
+      "category": "Restaurant marketing",
       "tagline": "Your restaurant's Instagram on autopilot",
-      "description": "Turns your restaurant's menu into posts and handles creation, scheduling and publishing on Instagram. You set the pace."
+      "summary": "Turns the menu into posts and handles creation, scheduling, and publishing on Instagram, Threads, and X.",
+      "challenge": "Restaurants know they need to post often, but kitchen routines leave no time to create, review, and schedule content. The result is an idle profile or posts that don't show the real menu.",
+      "built": "An iOS and Android app and a web dashboard that import the menu, suggest posts when something relevant changes, and let the team review photo, caption, channels, and time before publishing. The AI works on the restaurant's own data, with the brand identity stored per location.",
+      "highlights": [
+        "Menu imported from iFood, no typing",
+        "Post suggestions from menu changes",
+        "Ideas by text, audio, photo, or link become editable drafts",
+        "Calendar with the state of every post",
+        "Publishing to Instagram, Threads, and X",
+        "Multiple restaurants and per-person permissions"
+      ]
+    },
+    "npslab": {
+      "name": "NPSLab",
+      "category": "Customer experience",
+      "tagline": "Customer surveys that turn into action",
+      "summary": "NPS, CSAT, and CES surveys collected by QR code, tablet, or link, with real-time alerts and a multi-store view.",
+      "challenge": "Stores and chains rarely hear from customers, and when they do, they find problems too late. Survey tools tend to be expensive and built for the desktop, not for whoever is at the counter.",
+      "built": "An iPhone and Android app and a web dashboard that set up a survey in minutes, collect answers by QR code, kiosk-mode tablet, link, or WhatsApp, and notify the manager's phone as soon as a review arrives. Chains and franchises compare locations in a ranking.",
+      "highlights": [
+        "NPS, CSAT, and CES in one tool",
+        "Collection by QR code, kiosk, link, or WhatsApp",
+        "Real-time push alerts",
+        "Ranking and multi-store view",
+        "Automatic review translation",
+        "In-app subscriptions on the App Store and Google Play"
+      ]
+    },
+    "elus": {
+      "name": "Elus",
+      "category": "AI marketing",
+      "tagline": "Content for every channel, in your brand's voice",
+      "summary": "A platform that creates articles, posts, and creatives with AI and publishes to Instagram, X, Threads, LinkedIn, and the brand's blog.",
+      "challenge": "Marketing teams and agencies need to keep a blog and social channels active across languages, always in the same voice. Doing it by hand takes the whole team.",
+      "built": "A multi-tenant web platform with a copilot that knows the brand's strategy, generates content in 50+ languages, and publishes straight to the connected channels in a single flow.",
+      "highlights": [
+        "Articles, posts, and creatives in the brand's voice",
+        "Publishing to Instagram, X, Threads, LinkedIn, and blog",
+        "Content in 50+ languages",
+        "Interface in English, Portuguese, and Spanish",
+        "Built for agencies and marketing teams"
+      ]
+    },
+    "paina": {
+      "name": "Instituto Paina",
+      "category": "Inclusive education",
+      "tagline": "Website, courses, and the PAINA PEI platform",
+      "summary": "The digital ecosystem of Instituto de Educação Paina: institutional website, course platform, and PAINA PEI, for individualized education planning.",
+      "challenge": "Teachers and schools working in special education must record case studies, Individualized Education Plans, and progress evidence, usually in scattered documents with sensitive data moving around without control.",
+      "built": "The institutional website, the course platform, and PAINA PEI: a collaborative web and mobile product for case studies, IEPs, and specialized support plans, with school–family collaboration, versioned and auditable plans, and restricted access to sensitive data.",
+      "highlights": [
+        "Case study, IEP, and support plan in one flow",
+        "Versioned, auditable plans",
+        "Sensitive data with specific access",
+        "School–family collaboration",
+        "Course platform with per-participant enrollment",
+        "One account for website, courses, and PEI"
+      ]
+    },
+    "sites": {
+      "name": "ConectaLab Sites",
+      "category": "Professional websites",
+      "tagline": "A professional website ready in hours",
+      "summary": "Websites for freelancers, service providers, and small businesses, with booking, WhatsApp, and local SEO included.",
+      "challenge": "Professionals and small businesses are searched for on Google every day, but many have no website or one that brings no contact. A custom site usually takes weeks and costs a lot.",
+      "built": "A website production line: templates by specialty, copy and photos based on the professional's profile, and publishing in hours, with a WhatsApp button, booking, and local SEO.",
+      "highlights": [
+        "Delivered in hours, not days",
+        "Templates by specialty, such as health and law",
+        "WhatsApp and booking built in",
+        "Local SEO included",
+        "A ready-made demo for every prospect"
+      ]
     },
     "digitocrm": {
       "name": "DigitoCRM",
-      "tagline": "CRM with AI agents",
-      "description": "Complete CRM with AI-powered customer service agents, scheduling, and client relationship management."
+      "category": "AI CRM",
+      "tagline": "CRM with AI agents handling customer service",
+      "summary": "A multi-tenant CRM with a sales pipeline, AI agents for customer service, scheduling, and a chat widget for websites.",
+      "challenge": "Small and mid-sized businesses lose leads between first contact and sale: messages scatter, nobody replies after hours, and the pipeline lives in the salesperson's head.",
+      "built": "A multi-tenant web CRM with a kanban pipeline, AI agents that answer and schedule, and a chat widget any website can embed, including the sites of our other products.",
+      "highlights": [
+        "Kanban sales pipeline",
+        "AI agents in customer service",
+        "Built-in scheduling",
+        "Chat widget for websites",
+        "Data isolated per company"
+      ]
     }
   },
+  "Process": {
+    "overline": "How we work",
+    "headline": "From problem to product in production",
+    "subheadline": "The same process we use for our own products, applied to yours.",
+    "steps": [
+      {
+        "title": "Understand the problem",
+        "body": "We start with the day-to-day of whoever will use it: what gets stuck, what's expensive, and what can be measured."
+      },
+      {
+        "title": "Design the product",
+        "body": "Flows, screens, and a prototype before code, to validate early what's worth building."
+      },
+      {
+        "title": "Build",
+        "body": "iOS and Android apps, web systems, and integrations, delivered in stages you can see working."
+      },
+      {
+        "title": "Launch and operate",
+        "body": "App store publishing, payments, metrics, and continuous improvement once the product is live."
+      }
+    ],
+    "capabilities_title": "What we do",
+    "capabilities": [
+      "iOS and Android apps",
+      "SaaS and web dashboards",
+      "AI built into the product",
+      "Websites and landing pages",
+      "App Store and Google Play publishing",
+      "Payments and subscriptions",
+      "Integrations with iFood, social networks, and WhatsApp"
+    ]
+  },
   "CTA": {
-    "headline": "Let's build something together?",
-    "subheadline": "Tell us what you need. The initial conversation is no-commitment.",
-    "whatsapp": "Chat on WhatsApp",
+    "headline": "Got a problem worth a product?",
+    "subheadline": "Tell us what you need. The first conversation is free of commitment.",
+    "whatsapp": "Message on WhatsApp",
     "email": "Send an email"
   },
   "Footer": {
-    "tagline": "Technology that solves real problems.",
+    "tagline": "Digital product studio.",
     "rights": "All rights reserved."
   },
   "NotFound": {
     "title": "Page not found",
-    "description": "The page you are looking for does not exist or has been moved.",
+    "description": "The page you're looking for doesn't exist or has been moved.",
     "back": "Back to home"
   },
   "LocaleSwitcher": {

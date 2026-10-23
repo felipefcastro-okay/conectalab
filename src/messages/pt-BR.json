@@ -1,50 +1,185 @@
 {
+  "Metadata": {
+    "title": "CONECTA LAB | Estúdio de produtos digitais",
+    "description": "Criamos apps, SaaS e sites e colocamos no ar. Conheça os produtos que já construímos."
+  },
   "Header": {
-    "solutions": "Soluções",
+    "projects": "Projetos",
+    "process": "Como trabalhamos",
     "contact": "Contato",
-    "cta": "Fale Conosco"
+    "cta": "Fale conosco",
+    "menu": "Menu"
   },
   "Hero": {
-    "badge": "Tecnologia que resolve",
-    "headline": "Transformamos problemas reais em soluções digitais",
-    "subheadline": "Desenvolvemos sistemas, SaaS e aplicativos sob medida para empresas que querem crescer com tecnologia.",
-    "cta_primary": "Fale com a gente",
-    "cta_secondary": "Conheça nossas soluções"
+    "overline": "Estúdio de produtos digitais · Belo Horizonte",
+    "headline": "Criamos produtos digitais e colocamos no ar.",
+    "subheadline": "Apps, SaaS e sites, do problema à publicação nas lojas e à operação no dia a dia. Estes são alguns dos produtos que construímos.",
+    "cta_primary": "Ver projetos",
+    "cta_secondary": "Fale com a gente",
+    "stat_live": "{count} produtos no ar",
+    "stat_platforms": "iOS, Android e Web",
+    "stat_since": "Desde 2025"
   },
-  "Solutions": {
-    "overline": "Nossos Produtos",
-    "headline": "Soluções que já estão no mercado",
-    "subheadline": "Produtos próprios desenvolvidos para resolver problemas reais do dia a dia de empresas.",
-    "custom_title": "Soluções sob medida",
-    "custom_description": "Precisa de algo específico? Desenvolvemos sistemas personalizados para atender as necessidades únicas do seu negócio.",
-    "custom_cta": "Fale com a gente",
-    "learn_more": "Saiba mais"
+  "ProjectsSection": {
+    "overline": "Projetos",
+    "headline": "Produtos que construímos",
+    "subheadline": "Cada projeto conta o problema, o que construímos e como ficou."
   },
-  "Products": {
-    "npslab": {
-      "name": "NPSLAB",
-      "tagline": "Avaliações de clientes no varejo",
-      "description": "Sistema completo para capturar e gerenciar avaliações de clientes no ponto de venda. Entenda a satisfação real dos seus consumidores."
-    },
-    "elusfood": {
+  "ProjectMeta": {
+    "view": "Ver projeto",
+    "platforms": "Plataformas",
+    "status": "Status",
+    "year": "Ano",
+    "visit": "Visitar site",
+    "back": "Todos os projetos",
+    "next": "Próximo projeto",
+    "challenge": "O desafio",
+    "built": "O que construímos",
+    "highlights": "Destaques",
+    "status_live": "No ar",
+    "status_launching": "Em lançamento"
+  },
+  "Platforms": {
+    "ios": "iOS",
+    "android": "Android",
+    "web": "Web"
+  },
+  "Projects": {
+    "elus-food": {
       "name": "Elus Food",
-      "tagline": "O Instagram do seu restaurante no piloto automático",
-      "description": "Transforma o cardápio do restaurante em posts e cuida da criação, do agendamento e da publicação no Instagram. Você define o ritmo."
+      "category": "Marketing para restaurantes",
+      "tagline": "O Instagram do restaurante no piloto automático",
+      "summary": "Transforma o cardápio em posts e cuida da criação, do agendamento e da publicação no Instagram, no Threads e no X.",
+      "challenge": "Restaurantes sabem que precisam postar com frequência, mas a rotina da cozinha não deixa tempo para criar, revisar e agendar conteúdo. O resultado é um perfil parado ou posts que não mostram o cardápio de verdade.",
+      "built": "Um app para iOS e Android e um painel web que importam o cardápio, sugerem posts quando algo relevante muda e deixam a equipe revisar foto, legenda, canais e horário antes de publicar. A IA trabalha sobre os dados do restaurante, com a identidade da marca guardada por operação.",
+      "highlights": [
+        "Cardápio importado do iFood, sem digitação",
+        "Sugestões de posts a partir de mudanças no cardápio",
+        "Ideia por texto, áudio, foto ou link vira rascunho editável",
+        "Agenda com o estado de cada publicação",
+        "Publicação no Instagram, no Threads e no X",
+        "Vários restaurantes e permissões por pessoa"
+      ]
+    },
+    "npslab": {
+      "name": "NPSLab",
+      "category": "Experiência do cliente",
+      "tagline": "Pesquisa de satisfação que vira ação",
+      "summary": "Pesquisas NPS, CSAT e CES com coleta por QR code, tablet ou link, alertas em tempo real e visão multi-loja.",
+      "challenge": "Lojas e redes ouvem pouco os clientes e, quando ouvem, descobrem os problemas tarde demais. As ferramentas de pesquisa costumam ser caras e pensadas para o computador, não para quem está no balcão.",
+      "built": "Um app para iPhone e Android e um painel web que montam a pesquisa em minutos, coletam respostas por QR code, tablet em modo totem, link ou WhatsApp e avisam o responsável no celular assim que chega uma avaliação. Redes e franquias comparam as unidades num ranking.",
+      "highlights": [
+        "NPS, CSAT e CES na mesma ferramenta",
+        "Coleta por QR code, totem, link ou WhatsApp",
+        "Alertas push em tempo real",
+        "Ranking e visão multi-loja",
+        "Tradução automática das avaliações",
+        "Assinatura dentro do app na App Store e no Google Play"
+      ]
+    },
+    "elus": {
+      "name": "Elus",
+      "category": "Marketing com IA",
+      "tagline": "Conteúdo para todos os canais, com a voz da marca",
+      "summary": "Plataforma que cria artigos, posts e criativos com IA e publica no Instagram, no X, no Threads, no LinkedIn e no blog da marca.",
+      "challenge": "Times de marketing e agências precisam manter blog e redes ativos em vários canais e idiomas, sempre com a mesma voz. Fazer isso à mão consome a equipe inteira.",
+      "built": "Uma plataforma web multiempresa com um copiloto que conhece a estratégia da marca, gera conteúdo em mais de 50 idiomas e publica direto nos canais conectados, num único fluxo.",
+      "highlights": [
+        "Artigos, posts e criativos na voz da marca",
+        "Publicação no Instagram, X, Threads, LinkedIn e blog",
+        "Conteúdo em mais de 50 idiomas",
+        "Interface em português, inglês e espanhol",
+        "Feita para agências e times de marketing"
+      ]
+    },
+    "paina": {
+      "name": "Instituto Paina",
+      "category": "Educação inclusiva",
+      "tagline": "Site, cursos e a plataforma PAINA PEI",
+      "summary": "O ecossistema digital do Instituto de Educação Paina: site institucional, plataforma de cursos e o PAINA PEI, para planejamento educacional individualizado.",
+      "challenge": "Professores e escolas que trabalham com educação especial precisam registrar estudo de caso, Plano Educacional Individualizado e evidências de acompanhamento, quase sempre em documentos soltos e com dados sensíveis circulando sem controle.",
+      "built": "O site institucional, a plataforma de cursos e o PAINA PEI: um produto web e mobile colaborativo para estudo de caso, PEI e PAEE, com colaboração entre escola e família, PEI versionado e auditável e acesso restrito aos dados sensíveis.",
+      "highlights": [
+        "Estudo de caso, PEI e PAEE num só fluxo",
+        "PEI versionado e auditável",
+        "Dados sensíveis com acesso específico",
+        "Colaboração entre escola e família",
+        "Plataforma de cursos com inscrição por participante",
+        "Conta única para site, cursos e PEI"
+      ]
+    },
+    "sites": {
+      "name": "ConectaLab Sites",
+      "category": "Sites profissionais",
+      "tagline": "Site profissional pronto em horas",
+      "summary": "Sites para autônomos, prestadores de serviço e pequenos negócios, com agendamento, WhatsApp e SEO local incluídos.",
+      "challenge": "Profissionais liberais e pequenos negócios são procurados no Google todos os dias, mas muitos não têm site ou têm um que não traz contato. Um site sob medida costuma levar semanas e custar caro.",
+      "built": "Uma linha de produção de sites: modelos por especialidade, textos e fotos a partir do perfil do profissional e publicação em horas, com botão de WhatsApp, agendamento e SEO local.",
+      "highlights": [
+        "Entrega em horas, não em dias",
+        "Modelos por especialidade, como saúde e direito",
+        "WhatsApp e agendamento integrados",
+        "SEO local incluído",
+        "Demonstração pronta para cada cliente em potencial"
+      ]
     },
     "digitocrm": {
       "name": "DigitoCRM",
-      "tagline": "CRM com agentes de IA",
-      "description": "CRM completo com atendimento por agentes de inteligência artificial, agendamento e gestão de relacionamento com clientes."
+      "category": "CRM com IA",
+      "tagline": "CRM com atendimento por agentes de IA",
+      "summary": "CRM multiempresa com funil de vendas, atendimento por agentes de IA, agendamento e widget de chat para sites.",
+      "challenge": "Pequenas e médias empresas perdem leads entre o primeiro contato e a venda: as mensagens se espalham, ninguém responde fora do horário e o funil fica na cabeça do vendedor.",
+      "built": "Um CRM web multiempresa com funil em kanban, agentes de IA que atendem e agendam e um widget de chat que qualquer site incorpora, inclusive os sites dos nossos outros produtos.",
+      "highlights": [
+        "Funil de vendas em kanban",
+        "Agentes de IA no atendimento",
+        "Agendamento integrado",
+        "Widget de chat para sites",
+        "Dados isolados por empresa"
+      ]
     }
   },
+  "Process": {
+    "overline": "Como trabalhamos",
+    "headline": "Do problema ao produto no ar",
+    "subheadline": "O mesmo processo que usamos nos nossos produtos, aplicado ao seu.",
+    "steps": [
+      {
+        "title": "Entender o problema",
+        "body": "Começamos pelo dia a dia de quem vai usar: o que trava, o que custa caro e o que dá para medir."
+      },
+      {
+        "title": "Desenhar o produto",
+        "body": "Fluxos, telas e protótipo antes do código, para validar cedo o que vale construir."
+      },
+      {
+        "title": "Construir",
+        "body": "Apps iOS e Android, sistemas web e integrações, entregues em etapas que você vê funcionando."
+      },
+      {
+        "title": "Lançar e operar",
+        "body": "Publicação nas lojas, pagamentos, métricas e evolução contínua depois que o produto está no ar."
+      }
+    ],
+    "capabilities_title": "O que fazemos",
+    "capabilities": [
+      "Apps iOS e Android",
+      "SaaS e painéis web",
+      "IA aplicada ao produto",
+      "Sites e landing pages",
+      "Publicação na App Store e no Google Play",
+      "Pagamentos e assinaturas",
+      "Integrações com iFood, redes sociais e WhatsApp"
+    ]
+  },
   "CTA": {
-    "headline": "Vamos construir algo juntos?",
-    "subheadline": "Conte pra gente o que você precisa. A conversa inicial é sem compromisso.",
+    "headline": "Tem um problema que merece um produto?",
+    "subheadline": "Conte o que você precisa. A primeira conversa é sem compromisso.",
     "whatsapp": "Chamar no WhatsApp",
     "email": "Enviar um e-mail"
   },
   "Footer": {
-    "tagline": "Tecnologia que resolve problemas reais.",
+    "tagline": "Estúdio de produtos digitais.",
     "rights": "Todos os direitos reservados."
   },
   "NotFound": {

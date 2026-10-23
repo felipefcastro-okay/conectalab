@@ -15,17 +15,21 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <div className="flex items-center gap-1 text-sm">
+    <div
+      className="flex items-center gap-1 font-mono text-xs"
+      role="group"
+      aria-label={t("label")}
+    >
       {routing.locales.map((loc) => (
         <button
           key={loc}
           onClick={() => switchLocale(loc)}
-          className={`px-2 py-1 rounded-md transition-colors cursor-pointer ${
+          aria-pressed={locale === loc}
+          className={`px-2 py-1 rounded-full transition-colors cursor-pointer ${
             locale === loc
-              ? "text-brand-600 font-semibold bg-brand-50"
-              : "text-slate-400 hover:text-slate-600"
+              ? "bg-ink text-white"
+              : "text-muted hover:text-ink"
           }`}
-          aria-label={t("label")}
         >
           {t(loc)}
         </button>
