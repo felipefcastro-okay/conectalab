@@ -1,6 +1,6 @@
 import { type ComponentProps } from "react";
 
-type Variant = "primary" | "secondary" | "whatsapp" | "ghost";
+type Variant = "primary" | "secondary" | "whatsapp" | "light";
 type Size = "sm" | "md" | "lg";
 
 interface ButtonProps extends ComponentProps<"a"> {
@@ -9,20 +9,22 @@ interface ButtonProps extends ComponentProps<"a"> {
 }
 
 const variantStyles: Record<Variant, string> = {
-  primary:
-    "bg-brand-600 text-white hover:bg-brand-700 shadow-sm hover:shadow-md",
+  primary: "bg-ink text-white hover:bg-ink-soft",
   secondary:
-    "bg-white text-slate-700 border border-slate-200 hover:border-slate-300 hover:bg-slate-50",
-  whatsapp:
-    "bg-whatsapp text-white hover:bg-whatsapp-dark shadow-sm hover:shadow-md",
-  ghost: "text-slate-600 hover:text-slate-900 hover:bg-slate-50",
+    "bg-white text-ink border border-line hover:border-ink/30",
+  whatsapp: "bg-whatsapp text-white hover:bg-whatsapp-dark",
+  light: "bg-white text-ink hover:bg-paper",
 };
 
 const sizeStyles: Record<Size, string> = {
   sm: "px-4 py-2 text-sm",
-  md: "px-6 py-2.5 text-sm",
-  lg: "px-8 py-3.5 text-base",
+  md: "px-5 py-2.5 text-sm",
+  lg: "px-7 py-3.5 text-base",
 };
+
+export function buttonClasses(variant: Variant = "primary", size: Size = "md") {
+  return `inline-flex items-center justify-center gap-2 font-medium rounded-full transition-colors duration-200 cursor-pointer ${variantStyles[variant]} ${sizeStyles[size]}`;
+}
 
 export default function Button({
   variant = "primary",
@@ -32,10 +34,7 @@ export default function Button({
   ...props
 }: ButtonProps) {
   return (
-    <a
-      className={`inline-flex items-center justify-center gap-2 font-medium rounded-xl transition-all duration-200 cursor-pointer hover:scale-[1.02] active:scale-[0.98] ${variantStyles[variant]} ${sizeStyles[size]} ${className}`}
-      {...props}
-    >
+    <a className={`${buttonClasses(variant, size)} ${className}`} {...props}>
       {children}
     </a>
   );

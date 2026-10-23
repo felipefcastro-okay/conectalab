@@ -1,6 +1,7 @@
 import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
-import Solutions from "@/components/sections/Solutions";
+import Projects from "@/components/sections/Projects";
+import Process from "@/components/sections/Process";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
@@ -11,7 +12,8 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <Solutions />
+        <Projects />
+        <Process />
         <CTA />
       </main>
       <Footer />
