@@ -11,6 +11,15 @@
 - Captura dos sites: 1440x900 em 2x, recortada para 2:1 (2000x1000). O recorte deixa de
   fora banners de cookie e botões flutuantes de chat.
 
+## Prints de sistemas logados (ex.: Dígito CRM)
+
+- O navegador do app captura só ~800px de largura; a janela do Playwright não tem a
+  sessão do usuário. Use o Claude in Chrome (Chrome do usuário, já logado) com
+  `zoom` em `scale: 1` + `save_to_disk`: sai em pixels nativos (região 1176x588 do
+  quadro = 1390x695 px). Corte a barra de rolagem da borda direita.
+- Telas com leads, conversas ou execuções mostram dados de pessoas reais: não usar.
+  O painel (números agregados) serve; ler o conteúdo de cards de leads é bloqueado.
+
 ## Verificação visual
 
 - Com o painel do navegador oculto, animações CSS ficam pausadas e conteúdo com

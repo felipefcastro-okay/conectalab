@@ -21,11 +21,12 @@ export type Project = {
   images: ProjectImage[];
 };
 
-const browser = (src: string): ProjectImage => ({
+// Browser shots are cropped to 2:1.
+const browser = (src: string, width = 2000): ProjectImage => ({
   src,
   kind: "browser",
-  width: 2000,
-  height: 1000,
+  width,
+  height: width / 2,
 });
 
 const phone = (src: string, height: number): ProjectImage => ({
@@ -99,8 +100,8 @@ export const projects: Project[] = [
     year: 2025,
     platforms: ["web"],
     status: "live",
-    tint: "#e7e5df",
-    images: [],
+    tint: "#e4e8f1",
+    images: [browser("/projects/digitocrm/web.jpg", 1376)],
   },
 ];
 
