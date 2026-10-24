@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   return {
+    metadataBase: new URL("https://conectalab.cc"),
     title: t("title"),
     description: t("description"),
     openGraph: {
@@ -31,22 +32,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: "/",
       languages: { "pt-BR": "/", en: "/en" },
-    },
-    icons: {
-      icon: [
-        {
-          url: "/brand/conectalab-logo-square.png",
-          type: "image/png",
-          sizes: "512x512",
-        },
-      ],
-      apple: [
-        {
-          url: "/brand/conectalab-logo-square.png",
-          type: "image/png",
-          sizes: "512x512",
-        },
-      ],
     },
   };
 }

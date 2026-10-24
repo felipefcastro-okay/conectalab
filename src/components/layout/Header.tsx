@@ -40,12 +40,12 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" aria-label="CONECTA LAB">
             <Image
-              src="/brand/conectalab-logo-horizontal.png"
+              src="/brand/conectalab-logo.svg"
               alt="CONECTA LAB"
-              width={2172}
-              height={724}
+              width={648}
+              height={98}
               priority
-              className="h-10 w-auto"
+              className="h-6 w-auto"
             />
           </Link>
 

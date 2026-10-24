@@ -16,11 +16,11 @@ export default function Footer() {
         <div className="grid gap-10 sm:grid-cols-[1.4fr_1fr_1fr]">
           <div>
             <Image
-              src="/brand/conectalab-logo-horizontal.png"
+              src="/brand/conectalab-logo-dark.svg"
               alt="CONECTA LAB"
-              width={2172}
-              height={724}
-              className="h-12 w-auto brightness-0 invert"
+              width={648}
+              height={98}
+              className="h-7 w-auto"
             />
             <p className="text-white/60 text-sm mt-3">{t("tagline")}</p>
           </div>

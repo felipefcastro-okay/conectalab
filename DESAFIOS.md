@@ -20,6 +20,14 @@
 - Telas com leads, conversas ou execuções mostram dados de pessoas reais: não usar.
   O painel (números agregados) serve; ler o conteúdo de cards de leads é bloqueado.
 
+## Logo e metadados
+
+- A logo é gerada por `scripts/brand/genlogo.py`, que converte o texto em vetor sem
+  dependências (leitor de TrueType próprio em `ttf2path.py`). Não edite os SVGs à mão.
+- `opengraph-image.png` precisa ficar em `src/app/[locale]/`: o `openGraph` definido no
+  layout de idioma substitui o do pai, e a imagem na raiz some do HTML.
+- Sem `metadataBase`, a URL da imagem de compartilhamento sai com `localhost`.
+
 ## Verificação visual
 
 - Com o painel do navegador oculto, animações CSS ficam pausadas e conteúdo com
