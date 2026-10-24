@@ -6,6 +6,7 @@
   "Header": {
     "projects": "Projects",
     "process": "How we work",
+    "about": "About",
     "contact": "Contact",
     "cta": "Get in touch",
     "menu": "Menu"
@@ -37,7 +38,8 @@
     "built": "What we built",
     "highlights": "Highlights",
     "status_live": "Live",
-    "status_launching": "Launching"
+    "status_launching": "Launching",
+    "examples": "Live sites"
   },
   "Platforms": {
     "ios": "iOS",
@@ -120,8 +122,13 @@
         "Templates by specialty, such as health and law",
         "WhatsApp and booking built in",
         "Local SEO included",
-        "A ready-made demo for every prospect"
-      ]
+        "A ready-made demo for every prospect",
+        "Landing pages for events and launches"
+      ],
+      "examples": {
+        "leonar": "Physical therapy · Santa Maria, Brazil",
+        "fabio": "Live event landing page"
+      }
     },
     "digitocrm": {
       "name": "DigitoCRM",
@@ -171,6 +178,21 @@
       "Payments and subscriptions",
       "Integrations with iFood, social networks, and WhatsApp"
     ]
+  },
+  "About": {
+    "overline": "About",
+    "headline": "Who's behind the studio",
+    "name": "Felipe Castro",
+    "role": "Founder of CONECTA LAB",
+    "photo_alt": "Photo of Felipe Castro, founder of CONECTA LAB",
+    "bio": [
+      "CONECTA LAB is small on purpose. I follow every project end to end: I understand the problem, design the product, write the code, and take care of publishing and operation once it's live.",
+      "The products in this portfolio were built this way, and it's the same process I apply when the product is yours."
+    ],
+    "fact_location": "Belo Horizonte, Brazil",
+    "fact_projects": "{count} products in the portfolio",
+    "fact_stores": "Apps on the App Store and Google Play",
+    "cta": "Message me on WhatsApp"
   },
   "CTA": {
     "headline": "Got a problem worth a product?",
