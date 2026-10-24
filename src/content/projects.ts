@@ -11,6 +11,15 @@ export type ProjectImage = {
   height: number;
 };
 
+// Live client sites shown on a project's page. The label comes from
+// messages under `Projects.<slug>.examples.<key>`.
+export type ProjectExample = {
+  key: string;
+  name: string;
+  url: string;
+  image: ProjectImage;
+};
+
 export type Project = {
   slug: string;
   url?: string;
@@ -19,6 +28,7 @@ export type Project = {
   status: ProjectStatus;
   tint: string;
   images: ProjectImage[];
+  examples?: ProjectExample[];
 };
 
 // Browser shots are cropped to 2:1.
@@ -94,6 +104,20 @@ export const projects: Project[] = [
     status: "live",
     tint: "#e3eaf7",
     images: [browser("/projects/sites/web.jpg")],
+    examples: [
+      {
+        key: "leonar",
+        name: "Dr. Leonar Luis Mayer",
+        url: "https://leonarluis.com.br",
+        image: browser("/projects/sites/leonar.jpg"),
+      },
+      {
+        key: "fabio",
+        name: "Fábio Moraes",
+        url: "https://lp.fabiomoraesgf.com",
+        image: browser("/projects/sites/fabio.jpg"),
+      },
+    ],
   },
   {
     slug: "digitocrm",

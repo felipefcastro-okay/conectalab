@@ -159,6 +159,44 @@ export default async function ProjectPage({ params }: Props) {
           </section>
         )}
 
+        {project.examples && (
+          <section className="pb-20 lg:pb-28">
+            <div className="mx-auto max-w-6xl px-4 sm:px-6">
+              <h2 className="font-mono text-xs uppercase tracking-[0.18em] text-muted">{meta("examples")}</h2>
+              <div className="mt-6 grid gap-5 md:grid-cols-2">
+                {project.examples.map((example) => (
+                  <a
+                    key={example.key}
+                    href={example.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group block rounded-[28px] bg-white p-3 ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_20px_50px_-30px_rgba(18,19,22,0.4)]"
+                  >
+                    <div className="rounded-[20px] p-4 sm:p-6" style={{ backgroundColor: project.tint }}>
+                      <BrowserFrame
+                        image={example.image}
+                        alt={example.name}
+                        domain={example.url.replace(/^https?:\/\//, "")}
+                        sizes="(min-width: 768px) 520px, 90vw"
+                        className="transition-transform duration-500 ease-out group-hover:-translate-y-1"
+                      />
+                    </div>
+                    <div className="flex items-center justify-between gap-4 px-3 pb-2 pt-5">
+                      <div>
+                        <p className="text-lg font-heading font-bold text-ink">{example.name}</p>
+                        <p className="text-sm text-muted">{t(`examples.${example.key}`)}</p>
+                      </div>
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-ink text-white transition-transform duration-300 group-hover:rotate-45">
+                        <ArrowUpRightIcon />
+                      </span>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         <section className="border-t border-line">
           <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <Link

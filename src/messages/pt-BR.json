@@ -6,6 +6,7 @@
   "Header": {
     "projects": "Projetos",
     "process": "Como trabalhamos",
+    "about": "Sobre",
     "contact": "Contato",
     "cta": "Fale conosco",
     "menu": "Menu"
@@ -37,7 +38,8 @@
     "built": "O que construímos",
     "highlights": "Destaques",
     "status_live": "No ar",
-    "status_launching": "Em lançamento"
+    "status_launching": "Em lançamento",
+    "examples": "Sites no ar"
   },
   "Platforms": {
     "ios": "iOS",
@@ -120,8 +122,13 @@
         "Modelos por especialidade, como saúde e direito",
         "WhatsApp e agendamento integrados",
         "SEO local incluído",
-        "Demonstração pronta para cada cliente em potencial"
-      ]
+        "Demonstração pronta para cada cliente em potencial",
+        "Landing pages de eventos e lançamentos"
+      ],
+      "examples": {
+        "leonar": "Fisioterapia · Santa Maria/RS",
+        "fabio": "Landing page de imersão ao vivo"
+      }
     },
     "digitocrm": {
       "name": "DigitoCRM",
@@ -171,6 +178,21 @@
       "Pagamentos e assinaturas",
       "Integrações com iFood, redes sociais e WhatsApp"
     ]
+  },
+  "About": {
+    "overline": "Sobre",
+    "headline": "Quem está por trás do estúdio",
+    "name": "Felipe Castro",
+    "role": "Fundador da CONECTA LAB",
+    "photo_alt": "Foto de Felipe Castro, fundador da CONECTA LAB",
+    "bio": [
+      "A CONECTA LAB é pequena de propósito. Acompanho cada projeto de ponta a ponta: entendo o problema, desenho o produto, escrevo o código e cuido da publicação e da operação depois que ele está no ar.",
+      "Os produtos deste portfólio foram construídos assim, e é o mesmo processo que aplico quando o produto é seu."
+    ],
+    "fact_location": "Belo Horizonte, MG",
+    "fact_projects": "{count} produtos no portfólio",
+    "fact_stores": "Apps na App Store e no Google Play",
+    "cta": "Falar comigo no WhatsApp"
   },
   "CTA": {
     "headline": "Tem um problema que merece um produto?",

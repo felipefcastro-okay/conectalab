@@ -11,6 +11,7 @@ import { getWhatsAppUrl } from "@/lib/constants";
 const navItems = [
   { key: "projects", hash: "projects" },
   { key: "process", hash: "process" },
+  { key: "about", hash: "about" },
   { key: "contact", hash: "contact" },
 ] as const;
 
@@ -48,7 +49,7 @@ export default function Header() {
             />
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
               <Link
                 key={item.key}
@@ -70,7 +71,7 @@ export default function Header() {
           </nav>
 
           <button
-            className="md:hidden p-2 text-ink cursor-pointer"
+            className="lg:hidden p-2 text-ink cursor-pointer"
             onClick={() => setIsMobileOpen(!isMobileOpen)}
             aria-label={t("menu")}
             aria-expanded={isMobileOpen}
@@ -86,7 +87,7 @@ export default function Header() {
         </div>
 
         {isMobileOpen && (
-          <div className="md:hidden border-t border-line py-4 space-y-1">
+          <div className="lg:hidden border-t border-line py-4 space-y-1">
             {navItems.map((item) => (
               <Link
                 key={item.key}
