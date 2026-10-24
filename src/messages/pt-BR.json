@@ -186,12 +186,14 @@
     "role": "Fundador da CONECTA LAB",
     "photo_alt": "Foto de Felipe Castro, fundador da CONECTA LAB",
     "bio": [
-      "A CONECTA LAB é pequena de propósito. Acompanho cada projeto de ponta a ponta: entendo o problema, desenho o produto, escrevo o código e cuido da publicação e da operação depois que ele está no ar.",
-      "Os produtos deste portfólio foram construídos assim, e é o mesmo processo que aplico quando o produto é seu."
+      "Sou formado pela UFSM, tenho MBA pela FGV e fiz cursos de aprofundamento na ESPM e no MIT, em temas que vão de marketing a inteligência artificial agêntica.",
+      "Também empreendo nos ramos imobiliário, de foodservice e de SaaS. Por conhecer o dia a dia desses negócios por dentro, começo cada projeto pelo problema, não pela tecnologia.",
+      "A CONECTA LAB é pequena de propósito: acompanho cada projeto de ponta a ponta, do desenho do produto à publicação e à operação no ar. Os produtos deste portfólio foram construídos assim."
     ],
     "fact_location": "Belo Horizonte, MG",
+    "fact_education": "UFSM · MBA FGV",
+    "fact_courses": "ESPM · MIT",
     "fact_projects": "{count} produtos no portfólio",
-    "fact_stores": "Apps na App Store e no Google Play",
     "cta": "Falar comigo no WhatsApp"
   },
   "CTA": {

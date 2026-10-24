@@ -11,8 +11,9 @@ export default function About() {
   const paragraphs = t.raw("bio") as string[];
   const facts = [
     t("fact_location"),
+    t("fact_education"),
+    t("fact_courses"),
     t("fact_projects", { count: projects.length }),
-    t("fact_stores"),
   ];
 
   return (
