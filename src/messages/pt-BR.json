@@ -185,15 +185,47 @@
     "name": "Felipe Castro",
     "role": "Fundador da CONECTA LAB",
     "photo_alt": "Foto de Felipe Castro, fundador da CONECTA LAB",
-    "bio": [
-      "Sou formado pela UFSM, tenho MBA pela FGV e fiz cursos de aprofundamento na ESPM e no MIT, em temas que vão de marketing a inteligência artificial agêntica.",
-      "Também empreendo nos ramos imobiliário, de foodservice e de SaaS. Por conhecer o dia a dia desses negócios por dentro, começo cada projeto pelo problema, não pela tecnologia.",
-      "A CONECTA LAB é pequena de propósito: acompanho cada projeto de ponta a ponta, do desenho do produto à publicação e à operação no ar. Os produtos deste portfólio foram construídos assim."
+    "lead": "Ao longo dos anos, trabalhei com projetos de consultoria, implementação de sistemas e implementação de negócios, e empreendo nos ramos imobiliário, de foodservice e de SaaS.",
+    "body": "Essa bagagem faz cada projeto começar pelo problema do negócio, não pela tecnologia. A CONECTA LAB é pequena de propósito: acompanho cada produto de ponta a ponta, do desenho à publicação e à operação no ar.",
+    "track_title": "Trajetória",
+    "track": [
+      {
+        "title": "Consultoria",
+        "body": "Projetos de diagnóstico e melhoria para empresas."
+      },
+      {
+        "title": "Implementação de sistemas",
+        "body": "Do levantamento à virada de chave com a equipe."
+      },
+      {
+        "title": "Implementação de negócios",
+        "body": "Operações estruturadas e colocadas para rodar."
+      },
+      {
+        "title": "Empreendedor",
+        "body": "Negócios próprios no imobiliário, no foodservice e em SaaS."
+      }
     ],
-    "fact_location": "Belo Horizonte, MG",
-    "fact_education": "UFSM · MBA FGV",
-    "fact_courses": "ESPM · MIT",
-    "fact_projects": "{count} produtos no portfólio",
+    "education_title": "Formação",
+    "education": [
+      {
+        "school": "UFSM",
+        "course": "Graduação em Administração"
+      },
+      {
+        "school": "FGV",
+        "course": "MBA"
+      },
+      {
+        "school": "ESPM",
+        "course": "Cursos de aprofundamento"
+      },
+      {
+        "school": "MIT",
+        "course": "Cursos de aprofundamento"
+      }
+    ],
+    "education_note": "Temas que vão de marketing a inteligência artificial agêntica.",
     "cta": "Falar comigo no WhatsApp"
   },
   "CTA": {

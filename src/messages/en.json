@@ -185,15 +185,47 @@
     "name": "Felipe Castro",
     "role": "Founder of CONECTA LAB",
     "photo_alt": "Photo of Felipe Castro, founder of CONECTA LAB",
-    "bio": [
-      "I graduated from UFSM, hold an MBA from FGV, and took advanced courses at ESPM and MIT, on topics ranging from marketing to agentic artificial intelligence.",
-      "I'm also an entrepreneur in real estate, foodservice, and SaaS. Knowing these businesses from the inside, I start every project with the problem, not the technology.",
-      "CONECTA LAB is small on purpose: I follow every project end to end, from product design to publishing and running it in production. The products in this portfolio were built this way."
+    "lead": "Over the years, I've worked on consulting projects, systems implementation, and business implementation, and I'm an entrepreneur in real estate, foodservice, and SaaS.",
+    "body": "That background makes every project start with the business problem, not the technology. CONECTA LAB is small on purpose: I follow every product end to end, from design to publishing and running it in production.",
+    "track_title": "Background",
+    "track": [
+      {
+        "title": "Consulting",
+        "body": "Diagnostic and improvement projects for companies."
+      },
+      {
+        "title": "Systems implementation",
+        "body": "From requirements to go-live with the team."
+      },
+      {
+        "title": "Business implementation",
+        "body": "Operations structured and put to work."
+      },
+      {
+        "title": "Entrepreneur",
+        "body": "Own businesses in real estate, foodservice, and SaaS."
+      }
     ],
-    "fact_location": "Belo Horizonte, Brazil",
-    "fact_education": "UFSM · MBA FGV",
-    "fact_courses": "ESPM · MIT",
-    "fact_projects": "{count} products in the portfolio",
+    "education_title": "Education",
+    "education": [
+      {
+        "school": "UFSM",
+        "course": "Bachelor's in Business Administration"
+      },
+      {
+        "school": "FGV",
+        "course": "MBA"
+      },
+      {
+        "school": "ESPM",
+        "course": "Advanced courses"
+      },
+      {
+        "school": "MIT",
+        "course": "Advanced courses"
+      }
+    ],
+    "education_note": "Topics ranging from marketing to agentic artificial intelligence.",
     "cta": "Message me on WhatsApp"
   },
   "CTA": {
