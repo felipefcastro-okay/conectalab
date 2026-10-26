@@ -79,6 +79,22 @@
         "Assinatura dentro do app na App Store e no Google Play"
       ]
     },
+    "evoedu": {
+      "name": "EvoEdu",
+      "category": "Gestão escolar",
+      "tagline": "A gestão da escola em uma só plataforma",
+      "summary": "Plataforma de gestão escolar com notas, frequência, financeiro, matrículas, contratos e provas com IA, e um app para famílias e alunos.",
+      "challenge": "Escolas costumam espalhar a rotina entre planilhas, sistemas separados e grupos de mensagem. Secretaria, coordenação e professores perdem tempo, e as famílias ficam sem uma visão clara de notas, frequência e avisos.",
+      "built": "Uma plataforma web que reúne o acadêmico, o financeiro e o pedagógico da escola, e um app para iOS e Android em que responsáveis e alunos acompanham notas, frequência, agenda e comunicados e conversam com a escola.",
+      "highlights": [
+        "Notas, boletim e frequência",
+        "Financeiro, matrículas e contratos",
+        "Provas com IA e relatórios",
+        "Multi-unidade para redes de escolas",
+        "App para famílias e alunos, com carteirinha digital",
+        "EVO Sense para acompanhamento socioemocional"
+      ]
+    },
     "elus": {
       "name": "Elus",
       "category": "Marketing com IA",
