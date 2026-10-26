@@ -5,6 +5,10 @@ import ProjectCard from "@/components/projects/ProjectCard";
 // Alternating 7/5 and 5/7 columns keep the grid from reading as a template.
 const spans = ["lg:col-span-7", "lg:col-span-5", "lg:col-span-5", "lg:col-span-7"];
 
+// With an odd count, the last card would sit alone next to an empty slot.
+const isLoneLast = (index: number) =>
+  projects.length % 2 === 1 && index === projects.length - 1;
+
 export default function Projects() {
   const t = useTranslations("ProjectsSection");
 
@@ -28,7 +32,9 @@ export default function Projects() {
             <ProjectCard
               key={project.slug}
               project={project}
-              className={spans[index % spans.length]}
+              className={
+                isLoneLast(index) ? "md:col-span-2 lg:col-span-12" : spans[index % spans.length]
+              }
             />
           ))}
         </div>

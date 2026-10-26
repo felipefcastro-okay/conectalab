@@ -79,6 +79,22 @@
         "In-app subscriptions on the App Store and Google Play"
       ]
     },
+    "evoedu": {
+      "name": "EvoEdu",
+      "category": "School management",
+      "tagline": "Running the whole school on one platform",
+      "summary": "A school management platform with grades, attendance, finance, enrollment, contracts, and AI-assisted tests, plus an app for families and students.",
+      "challenge": "Schools tend to spread their routine across spreadsheets, separate systems, and messaging groups. Office staff, coordinators, and teachers lose time, and families lack a clear view of grades, attendance, and notices.",
+      "built": "A web platform that brings together the school's academic, financial, and pedagogical work, and an iOS and Android app where parents and students follow grades, attendance, the calendar, and notices, and talk to the school.",
+      "highlights": [
+        "Grades, report cards, and attendance",
+        "Finance, enrollment, and contracts",
+        "AI-assisted tests and reports",
+        "Multi-campus for school networks",
+        "App for families and students, with a digital ID card",
+        "EVO Sense for social-emotional follow-up"
+      ]
+    },
     "elus": {
       "name": "Elus",
       "category": "AI marketing",

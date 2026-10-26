@@ -76,6 +76,20 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "evoedu",
+    url: "https://evoedu.cc",
+    year: 2025,
+    platforms: ["web", "ios", "android"],
+    status: "live",
+    tint: "#e5efe9",
+    images: [
+      browser("/projects/evoedu/web.jpg"),
+      phone("/projects/evoedu/app-1.jpg", 1948),
+      phone("/projects/evoedu/app-2.jpg", 1948),
+      phone("/projects/evoedu/app-3.jpg", 1948),
+    ],
+  },
+  {
     slug: "elus",
     url: "https://elus.cc",
     year: 2026,
