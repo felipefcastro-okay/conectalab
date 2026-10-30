@@ -11,6 +11,7 @@ import { BrowserFrame, PhoneFrame } from "@/components/projects/ProjectFrames";
 import { PlatformList, StatusLabel } from "@/components/projects/ProjectTags";
 import { ArrowLeftIcon, ArrowRightIcon, ArrowUpRightIcon } from "@/components/ui/Icons";
 import { Link } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
 import { getNextProject, getProject } from "@/content/projects";
 
 type Props = {
@@ -27,8 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${t("name")} | CONECTA LAB`,
     description: t("summary"),
     alternates: {
-      canonical: `/projetos/${slug}`,
-      languages: { "pt-BR": `/projetos/${slug}`, en: `/en/projetos/${slug}` },
+      canonical: `${locale === routing.defaultLocale ? "" : `/${locale}`}/projetos/${slug}`,
+      languages: { en: `/projetos/${slug}`, "pt-BR": `/pt-BR/projetos/${slug}` },
     },
   };
 }

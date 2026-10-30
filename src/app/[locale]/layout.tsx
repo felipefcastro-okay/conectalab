@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
     },
     alternates: {
-      canonical: "/",
-      languages: { "pt-BR": "/", en: "/en" },
+      canonical: locale === routing.defaultLocale ? "/" : `/${locale}`,
+      languages: { en: "/", "pt-BR": "/pt-BR" },
     },
   };
 }
