@@ -152,7 +152,7 @@
       "tagline": "CRM with AI agents handling customer service",
       "summary": "A multi-tenant CRM with a sales pipeline, AI agents for customer service, scheduling, and a chat widget for websites.",
       "challenge": "Small and mid-sized businesses lose leads between first contact and sale: messages scatter, nobody replies after hours, and the pipeline lives in the salesperson's head.",
-      "built": "A multi-tenant web CRM with a kanban pipeline, AI agents that answer and schedule, and a chat widget any website can embed, including the sites of our other products.",
+      "built": "A multi-tenant web CRM with a kanban pipeline, AI agents that answer and schedule, and an embeddable chat widget. Automations send follow-up messages, create tasks, and update pipeline stages based on lead activity.",
       "highlights": [
         "Kanban sales pipeline",
         "AI agents in customer service",
