@@ -152,7 +152,7 @@
       "tagline": "CRM com atendimento por agentes de IA",
       "summary": "CRM multiempresa com funil de vendas, atendimento por agentes de IA, agendamento e widget de chat para sites.",
       "challenge": "Pequenas e médias empresas perdem leads entre o primeiro contato e a venda: as mensagens se espalham, ninguém responde fora do horário e o funil fica na cabeça do vendedor.",
-      "built": "Um CRM web multiempresa com funil em kanban, agentes de IA que atendem e agendam e um widget de chat que qualquer site incorpora, inclusive os sites dos nossos outros produtos.",
+      "built": "Um CRM web multiempresa com funil em kanban, agentes de IA que atendem e agendam e um widget de chat para incorporar em sites. As automações enviam mensagens de acompanhamento, criam tarefas e atualizam as etapas do funil com base nas atividades dos leads.",
       "highlights": [
         "Funil de vendas em kanban",
         "Agentes de IA no atendimento",
